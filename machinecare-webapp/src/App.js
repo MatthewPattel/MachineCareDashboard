@@ -21,8 +21,8 @@ import Axios from 'axios';
 
 //Pages
 import login from './pages/login';
-import dashboard from './pages/dashboard';
 
+import dashboard from './pages/dashboard';
 import servicios from './pages/servicios';
 
 import especialistas from './pages/especialistas';
@@ -32,6 +32,10 @@ import gerentes from './pages/gerentes';
 import invitados from './pages/invitados';
 import clientes from './pages/clientes';
 import supervisoresClientes from './pages/supervisoresClientes';
+
+import clienteAdd from './pages/clienteAdd';
+import especialistaAdd from './pages/especialistaAdd';
+import servicio from './pages/servicio';
 
 const appTheme = createMuiTheme(themeFile);
 
@@ -66,6 +70,10 @@ function App() {
                 <Route exact path="/clientes" component={clientes} />
                 <Route exact path="/supervisoresClientes" component={supervisoresClientes} />
                 <Route exact path="/servicios" component={servicios} />
+                
+                <Route exact path="/servicio" component={servicio} />
+                <Route exact path="/especialistaAdd" component={especialistaAdd} />
+                <Route exact path="/clienteAdd" component={clienteAdd} />
               </Switch>
             </div>
           </Router>

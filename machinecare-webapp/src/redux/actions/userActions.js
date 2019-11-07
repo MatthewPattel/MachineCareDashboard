@@ -29,7 +29,9 @@ export const logoutUser = () => (dispatch) => {
 }
 
 export const getUserData = () => (dispatch) => {
-    axios.get('/user')
+    let usertypeURL;
+    usertypeURL = '/especialista';
+    axios.get(usertypeURL)
     .then(res => {
         dispatch({
             type: SET_USER,
@@ -43,4 +45,29 @@ const setAuthorizationHeader = (token) => {
     const FBToken = 'Bearer '+token;
     localStorage.setItem('FBAuth', FBToken);
     axios.defaults.headers.common['Authorization'] = FBToken;
+}
+
+export const createUser = (userData, history, redireccion) => (dispatch) => {
+    dispatch({ type: LOADING_UI});
+    axios.post('/signup', userData, {
+        headers: {'Content-Type': 'application/json', 'Accept': 'application/json', "Access-Control-Allow-Origin": "*"}
+    })
+    .then(res => {
+        console.log("impresion data");
+        console.log(userData);
+        console.log(res.data);
+        setAuthorizationHeader(res.data.token);
+        dispatch(getUserData());
+        dispatch({ type: CLEAR_ERRORS});
+        history.push('/'+redireccion);
+    })
+    .catch(err => {
+        console.log("imprime errores desde useractions");
+        console.log(err);
+        console.log(err.response);
+        dispatch({
+            type: SET_ERRORS,
+            payload: err.response.data
+        });
+    });
 }

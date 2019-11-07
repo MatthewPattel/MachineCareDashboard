@@ -44,21 +44,28 @@ export default {
     }
   },
   spreadThis: {
+    formControl: {
+      //margin: theme.spacing(1),
+      minWidth: 120,
+    },
+    selectEmpty: {
+      //marginTop: theme.spacing(2),
+    },
     form: {
       textAlign: 'center'
     },
     image: {
-        margin: '20px auto 20px auto'
+      margin: '20px auto 20px auto'
     },
     pageTitle: {
-        margin: '10px auto 10px auto'
+      margin: '10px auto 10px auto'
     },
     textField: {
-        margin: '10px auto 10px auto'
+      margin: '10px auto 10px auto'
     },
     button: {
-        marginTop: 20,
-        position: 'relative'
+      marginTop: 20,
+      position: 'relative'
     },
     customError: {
       color: 'red',

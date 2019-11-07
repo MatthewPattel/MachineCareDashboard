@@ -14,6 +14,10 @@ import ListItem from '@material-ui/core/ListItem';
 import ListItemIcon from '@material-ui/core/ListItemIcon';
 import ListItemText from '@material-ui/core/ListItemText';
 
+import { withRouter } from "react-router-dom";
+
+import { SET_UNAUTHENTICATED } from '../redux/types';
+import  axios from 'axios';
 
 //Icons
 import IconDashboard from '@material-ui/icons/Dashboard';
@@ -94,7 +98,18 @@ const useStyles = makeStyles(theme => ({
   },
 }));
 
-export default function MiniDrawer() {
+export const logoutUser = () => (dispatch) => {
+  console.log("cerrando");
+  localStorage.removeItem('FBAuth');
+  delete axios.defaults.headers.common['Authorization'];
+  dispatch({ type: SET_UNAUTHENTICATED});
+}
+
+const eraseToken = () => {
+  logoutUser();
+}
+
+export function MiniDrawer(props) {
   const classes = useStyles();
   const theme = useTheme();
   const [open, setOpen] = React.useState(false);
@@ -107,122 +122,112 @@ export default function MiniDrawer() {
     setOpen(false);
   };
 
+  const path = props.location.pathname;
+
+  console.log(props.location.pathname);
+  
+  let hiddenNavbar = true;
+  
+  if (path === "/login") {
+    hiddenNavbar = true;
+  } else {
+    hiddenNavbar = false;
+  }
+  
   return (
-    <div className={classes.root}>
-      <CssBaseline />
-      <AppBar
-        position="fixed"
-        className={clsx(classes.appBar, {
-          [classes.appBarShift]: open,
-        })}
-      >
-        <Toolbar>
-          <IconButton
-            color="inherit"
-            aria-label="open drawer"
-            onClick={handleDrawerOpen}
-            edge="start"
-            className={clsx(classes.menuButton, {
-              [classes.hide]: open,
-            })}
-          >
-            <MenuIcon />
-          </IconButton>
-          <Typography variant="h6" noWrap>
-            Machine Care
-          </Typography>
-        </Toolbar>
-      </AppBar>
-      <Drawer
-        variant="permanent"
-        className={clsx(classes.drawer, {
-          [classes.drawerOpen]: open,
-          [classes.drawerClose]: !open,
-        })}
-        classes={{
-          paper: clsx({
+    <div hidden={hiddenNavbar}>
+      <div className={classes.root}>
+        <CssBaseline />
+        <AppBar
+          position="fixed"
+          className={clsx(classes.appBar, {
+            [classes.appBarShift]: open,
+          })}
+        >
+          <Toolbar>
+            <IconButton
+              color="inherit"
+              aria-label="open drawer"
+              onClick={handleDrawerOpen}
+              edge="start"
+              className={clsx(classes.menuButton, {
+                [classes.hide]: open,
+              })}
+            >
+              <MenuIcon />
+            </IconButton>
+            <Typography variant="h6" noWrap>
+              Machine Care
+            </Typography>
+          </Toolbar>
+        </AppBar>
+        <Drawer
+          variant="permanent"
+          className={clsx(classes.drawer, {
             [classes.drawerOpen]: open,
             [classes.drawerClose]: !open,
-          }),
-        }}
-        open={open}
-      >
-        <div className={classes.toolbar}>
-          <IconButton onClick={handleDrawerClose}>
-            {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
-          </IconButton>
-        </div>
-        <Divider />
-        <List>
-            <ListItem button component={Link} to="/">
-                <ListItemIcon> <IconDashboard/> </ListItemIcon>
-                <ListItemText primary="Dashboard" />
-            </ListItem>
-            <ListItem button component={Link} to="/servicios">
-                <ListItemIcon> <IconServicios/> </ListItemIcon>
-                <ListItemText primary="Servicios" />
-            </ListItem>
-            <Divider/>
-            <ListItem button component={Link} to="/especialistas">
-                <ListItemIcon> <IconEspecialistas/> </ListItemIcon>
-                <ListItemText primary="Especialistas" />
-            </ListItem>
-            <ListItem button component={Link} to="/supervisores">
-                <ListItemIcon> <IconSupervisores/> </ListItemIcon>
-                <ListItemText primary="Supervisores" />
-            </ListItem>
-            <ListItem button component={Link} to="/gerentes">
-                <ListItemIcon> <IconSupervisores/> </ListItemIcon>
-                <ListItemText primary="Gerentes" />
-            </ListItem>
-            <Divider/>
-            <ListItem button component={Link} to="/invitados">
-                <ListItemIcon> <IconProspectos/> </ListItemIcon>
-                <ListItemText primary="Invitados" />
-            </ListItem>
-            <ListItem button component={Link} to="/clientes">
-                <ListItemIcon> <IconClientes/> </ListItemIcon>
-                <ListItemText primary="Clientes" />
-            </ListItem>
-            <ListItem button component={Link} to="/supervisoresClientes">
-                <ListItemIcon> <IconSupervisores/> </ListItemIcon>
-                <ListItemText primary="Supervisores Clientes" />
-            </ListItem>
-            <Divider/>
-            <ListItem button component={Link} to="/login">
-                <ListItemIcon> <IconCerrarSesion/> </ListItemIcon>
-                <ListItemText primary="Cerrar Sesion" />
-            </ListItem>
-        </List>
-      </Drawer>
+          })}
+          classes={{
+            paper: clsx({
+              [classes.drawerOpen]: open,
+              [classes.drawerClose]: !open,
+            }),
+          }}
+          open={open}
+        >
+          <div className={classes.toolbar}>
+            <IconButton onClick={handleDrawerClose}>
+              {theme.direction === 'rtl' ? <ChevronRightIcon /> : <ChevronLeftIcon />}
+            </IconButton>
+          </div>
+          <Divider />
+          <List>
+              <ListItem button component={Link} to="/">
+                  <ListItemIcon> <IconDashboard/> </ListItemIcon>
+                  <ListItemText primary="Dashboard" />
+              </ListItem>
+              <ListItem button component={Link} to="/servicios">
+                  <ListItemIcon> <IconServicios/> </ListItemIcon>
+                  <ListItemText primary="Servicios" />
+              </ListItem>
+              <Divider/>
+              <ListItem button component={Link} to="/especialistas">
+                  <ListItemIcon> <IconEspecialistas/> </ListItemIcon>
+                  <ListItemText primary="Especialistas" />
+              </ListItem>
+              <ListItem button component={Link} to="/supervisores">
+                  <ListItemIcon> <IconSupervisores/> </ListItemIcon>
+                  <ListItemText primary="Supervisores" />
+              </ListItem>
+              <ListItem button component={Link} to="/gerentes">
+                  <ListItemIcon> <IconSupervisores/> </ListItemIcon>
+                  <ListItemText primary="Gerentes" />
+              </ListItem>
+              <Divider/>
+              <ListItem button component={Link} to="/invitados">
+                  <ListItemIcon> <IconProspectos/> </ListItemIcon>
+                  <ListItemText primary="Invitados" />
+              </ListItem>
+              <ListItem button component={Link} to="/clientes">
+                  <ListItemIcon> <IconClientes/> </ListItemIcon>
+                  <ListItemText primary="Clientes" />
+              </ListItem>
+              <ListItem button component={Link} to="/supervisoresClientes">
+                  <ListItemIcon> <IconSupervisores/> </ListItemIcon>
+                  <ListItemText primary="Supervisores Clientes" />
+              </ListItem>
+              <Divider/>
+              <form onSubmit={eraseToken()}>
+                <ListItem button type="submit" component={Link} to="/login">
+                    <ListItemIcon> <IconCerrarSesion/> </ListItemIcon>
+                    <ListItemText primary="Cerrar Sesion" />
+                </ListItem>
+              </form>
+          </List>
+        </Drawer>
+      </div>
     </div>
   );
 }
 
-//export default Navbar
-
-/*
-import React, { Component } from 'react'
-import Link from 'react-router-dom/Link';
-
-// MUI stuff
-import AppBar from '@material-ui/core/AppBar';
-import Toolbar from '@material-ui/core/Toolbar';
-import Button from '@material-ui/core/Button';
-
-export class Navbar extends Component {
-    render() {
-        return (
-            <AppBar>
-                <Toolbar className="nav-container">
-                    <Button color="inherit" component={Link} to="/">Dashboard</Button>
-                    <Button color="inherit" component={Link} to="/especialistas">Especialistas</Button>
-                    <Button color="inherit" component={Link} to="/login">Cerrar Sesion</Button>
-                </Toolbar>
-            </AppBar>
-        )
-    }
-}
-
-export default Navbar
-*/
+export default withRouter(MiniDrawer);

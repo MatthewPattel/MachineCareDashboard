@@ -1,0 +1,5672 @@
+[ {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "7e83426f-eef2-470f-8494-b03c671c09b8",
+    "supervisor" : "597133e9-5f5f-449a-8a1d-0e0db6780344"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T16:00:07.835Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 30,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-08T17:27:53.127Z",
+  "descripcion" : "Me compras tortas de Pierna",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528110707478",
+    "email" : "nestorj.lopez@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "lastUpdate" : "2019-08-08T17:24:08.665Z",
+    "location" : {
+      "coordinates" : [ -100.240443, 25.5660167 ],
+      "type" : "Point"
+    },
+    "nombre" : "Néstor López",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 0,
+      "comunicacion" : 3,
+      "dominio" : 2,
+      "empatia" : 1,
+      "orden" : 3,
+      "proceso" : 4,
+      "puntualidad" : 4,
+      "rapidez" : 4,
+      "rechazados" : 1
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-08T18:44:00Z",
+  "fecha_solicitud" : "2019-08-08T17:44:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/d9b4d0f0-2ac5-4bd8-9eac-4564ec9d8a6e.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "a3a55c25-e5bd-4ce7-9983-09dc677dd8ec",
+  "id_servicio" : 1017,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.26756699999999, 25.746656 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e8478aa4-55c8-434a-996d-6d886ce5a114",
+    "supervisor" : "82154447-3aa7-41f4-8321-1f2e42e7e082"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-06T20:43:19.623Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 28,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : "Ok",
+  "created_date" : "2019-08-06T22:14:50.182Z",
+  "descripcion" : "Yo",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "2",
+    "empatia" : "1",
+    "orden" : "3",
+    "proceso" : "4",
+    "puntualidad" : "4",
+    "rapidez" : "4"
+  },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528110707478",
+    "email" : "nestorj.lopez@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "lastUpdate" : "2019-08-06T22:14:21.195Z",
+    "location" : {
+      "coordinates" : [ -100.2675548, 25.7465977 ],
+      "type" : "Point"
+    },
+    "nombre" : "Néstor López",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Cerrado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-06T23:14:00Z",
+  "fecha_solicitud" : "2019-08-06T23:14:00Z",
+  "finaliza_servicio" : "2019-08-06T22:28:24.631Z",
+  "foto" : "public/servicios/6db2fd14-7e7f-491f-89d2-eee807b2cc76.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "75bdf199-204d-48e7-bf8a-2c8af0f9a327",
+  "id_servicio" : 1008,
+  "inicia_servicio" : "2019-08-06T22:27:33.619Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.26755550000001, 25.7465764 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-06T22:27:27.927Z",
+    "foto" : "public/servicios/72ccaf9f-e893-43bc-8e22-d7250b19c5b4.png",
+    "id" : 0,
+    "nota" : "F",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-06T22:28:23.445Z",
+    "foto" : "public/servicios/d7e65d5d-ca24-42f1-8c47-a04e78efa5e5.png",
+    "id" : 1,
+    "nota" : "V",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-07T16:28:40.347Z",
+    "foto" : "public/servicios/504daee9-8fbb-4836-8daf-a5b96002a6e3.png",
+    "id" : 0,
+    "nota" : "Ya llegue aquí al trabajo, voy a empezar a laburar en la maquina",
+    "notaShort" : "Ya llegue aquí al tr..."
+  }, {
+    "fecha" : "2019-08-07T16:52:03.620Z",
+    "foto" : "public/servicios/abe00a00-5268-4502-8a6c-9e7f9ae65409.png",
+    "id" : 0,
+    "nota" : "Ya empezare a laburar debido a la falla que tiene la máquina en estos momentos de desesperanza y agonia",
+    "notaShort" : "Ya empezare a labura..."
+  }, {
+    "fecha" : "2019-08-07T17:01:25.125Z",
+    "foto" : "public/servicios/96f3e5d5-fff0-4a9c-b85c-26574478134e.png",
+    "id" : 0,
+    "nota" : "Ya voy a iniciar con este trabajo rudimentario",
+    "notaShort" : "Ya voy a i..."
+  }, {
+    "fecha" : "2019-08-08T16:37:22.061Z",
+    "foto" : "public/servicios/a29f1c87-b62b-492d-80b7-b0043ad7c3c8.png",
+    "id" : 0,
+    "nota" : "Se llega a equipo y se encuentra que esta apagado y fuera de linea de producción como también se nos informa que los operadores están comiendo",
+    "notaShort" : "Se llega a equipo y ..."
+  } ],
+  "notasTotal" : 5,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : "00:00:51 hrs"
+}, {
+  "activar" : false,
+  "chat" : {
+    "cliente" : "23ad89d8-2dee-4c72-8716-eea5c948ee2a",
+    "supervisor" : "f2324ee2-fa09-49d5-aa31-3cd5e0fa1e01"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-05T18:04:50.208Z",
+  "descripcion" : "Solo test",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "33",
+    "nombre" : "Equipo nuevo 1-1",
+    "poliza" : "POLIZA11"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-05T18:09:10.076Z",
+    "location" : {
+      "coordinates" : [ -100.2402225, 25.5653799 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 2,
+      "cancelados" : 0,
+      "comunicacion" : 3,
+      "dominio" : 4.333333333333333,
+      "empatia" : 3.3333333333333335,
+      "orden" : 3.6666666666666665,
+      "proceso" : 3,
+      "puntualidad" : 4.333333333333333,
+      "rapidez" : 4.333333333333333,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-10T18:00:00Z",
+  "fecha_solicitud" : "2019-08-10T18:00:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/6ff6f9c6-58ed-4d1d-836c-f32affeecd1e.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "41bc77eb-3d35-4b52-9a75-22623d3702cc",
+  "id_servicio" : 1006,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC Industrial",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Preventivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "2c4b44df-d0f9-4a44-88b2-6c8a1458177c",
+    "supervisor" : "271536ce-909b-4785-8cdb-afd3ec624324"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-05T17:09:35.651Z",
+  "descripcion" : "El equipo no esta rechazando piezas",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-05T17:23:08.482Z",
+    "location" : {
+      "coordinates" : [ -100.24043786378081, 25.565908136868682 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Cancelado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-05T18:27:00Z",
+  "fecha_solicitud" : "2019-08-05T17:27:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/400d3c87-c934-4981-8faf-ef1708bd9b90.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "a468c320-d8f1-4357-9892-811007c44300",
+  "id_servicio" : 1005,
+  "inicia_servicio" : "2019-08-05T17:16:46.718Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-05T17:16:45.821Z",
+    "foto" : "public/servicios/2ae53e4d-8eae-4a6e-85bc-5946d85f3ffc.png",
+    "id" : 0,
+    "nota" : "Nunca me atendieron esperé 3 hrs en el sol",
+    "notaShort" : "Nunca me a..."
+  }, {
+    "fecha" : "2019-08-05T17:16:45.821Z",
+    "foto" : "public/servicios/2ae53e4d-8eae-4a6e-85bc-5946d85f3ffc.png",
+    "id" : 1,
+    "nota" : "Nunca me atendieron esperé 3 hrs en el sol",
+    "notaShort" : "Nunca me a..."
+  }, {
+    "fecha" : "2019-08-05T17:16:45.821Z",
+    "foto" : "public/servicios/2ae53e4d-8eae-4a6e-85bc-5946d85f3ffc.png",
+    "id" : 2,
+    "nota" : "Nunca me atendieron esperé 3 hrs en el sol",
+    "notaShort" : "Nunca me atendieron ..."
+  } ],
+  "notasTotal" : "2",
+  "plataforma" : "PC Industrial",
+  "rechazos" : 2,
+  "seccion_falla" : "Electrico",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Menor",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "9a5a79b4-cb9d-49dd-8fb9-d380efbd2f98",
+    "supervisor" : "6973d6eb-252b-4a76-8cae-c9fba8ed18e4"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T16:00:07.835Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 30,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-09T19:55:53.858Z",
+  "descripcion" : "Dfhjkmvffgjj",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-11T17:25:00Z",
+      "servicio" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-09T19:54:41.805Z",
+    "location" : {
+      "coordinates" : [ -100.330421, 25.6647758 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 3,
+      "cancelados" : 2,
+      "comunicacion" : 3,
+      "dominio" : 4.25,
+      "empatia" : 3.75,
+      "orden" : 4,
+      "proceso" : 3,
+      "puntualidad" : 4.5,
+      "rapidez" : 4.25,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "En Progreso",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-09T21:18:00Z",
+  "fecha_solicitud" : "2019-08-09T20:18:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/70d09ff9-5079-4d63-b94c-09b97b2aa144.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "416dcaf3-8538-4cac-8656-1ca3d077fad8",
+  "id_servicio" : 1022,
+  "inicia_servicio" : "2019-08-09T19:58:46.927Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.33053489999998, 25.6646666 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-09T19:58:42.529Z",
+    "foto" : "public/servicios/872521bf-48cc-403b-8613-65596a26de0c.png",
+    "id" : 0,
+    "nota" : "Rrr5",
+    "notaShort" : "Rrr5"
+  } ],
+  "notasTotal" : 0,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "bcdd0e13-e8f4-41a5-afd1-2ea3bc46699a",
+    "supervisor" : "f9ec6533-794e-4cc6-aa8d-f181dd9d945f"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T16:00:07.835Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 30,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-08T16:11:07.989Z",
+  "descripcion" : "Soporte a Linea ",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-13T15:53:00Z",
+      "servicio" : "1b87de50-493a-4461-93a7-644eda163a7c"
+    } ],
+    "celular" : null,
+    "email" : "jorge.murrieta@machinecare.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+    "lastUpdate" : "2019-08-08T16:29:25.684Z",
+    "location" : {
+      "coordinates" : [ -100.2404436, 25.5660165 ],
+      "type" : "Point"
+    },
+    "nombre" : "Jorge Murrieta",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : { },
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-16T21:09:00Z",
+  "fecha_solicitud" : "2019-08-16T21:09:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/ca9049d2-5429-4347-83bf-43672c59fa55.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "74e3c469-c88a-4ac8-97bf-050115e8fcd4",
+  "id_servicio" : 1014,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "0e223aae-be89-4551-b508-a23a2cbdaf67",
+    "supervisor" : "35548c3b-bcb1-4aca-862c-feda4b86dbe7"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T14:48:10.949Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 29,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-08T16:00:06.622Z",
+  "descripcion" : "Revisar pistola",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "97e64f10-b9f5-11e9-a60e-0242a2cac2b7",
+    "nombre" : "ESD tester"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-11T17:25:00Z",
+      "servicio" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "jorge.murrieta@machinecare.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+    "lastUpdate" : "2019-08-08T15:49:04.342Z",
+    "location" : {
+      "coordinates" : [ -100.2405007, 25.5658851 ],
+      "type" : "Point"
+    },
+    "nombre" : "Jorge Murrieta",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T15:53:00Z",
+  "fecha_solicitud" : "2019-08-13T15:53:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/ffa31cb6-4808-4387-bc5a-4c60ab9da51e.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "1b87de50-493a-4461-93a7-644eda163a7c",
+  "id_servicio" : 1013,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.22908795602984, 25.56845740635738 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Soporte Técnico",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : false,
+  "chat" : {
+    "cliente" : "1ca30549-bf35-476e-8a6a-c4f78b82848d",
+    "supervisor" : "c2c57385-24c0-4cb5-b863-9273451f7708"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-19T17:18:35.379Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 32,
+    "cliente" : true,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : 123,
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : 217,
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : 222,
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "telefono" : null,
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-21T14:24:58.869Z",
+  "descripcion" : "Dfghjkj\n",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "11",
+    "nombre" : "Equipo nuevo 31-4",
+    "poliza" : "Pol314"
+  },
+  "especialista" : {
+    "_id" : "5d162c0d3ae9256c99fde883",
+    "ars_createdAt" : "2019-06-28T15:02:37.163Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-15T15:47:11.657Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 3388,
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-15T16:17:11.435Z",
+    "location" : {
+      "coordinates" : [ -100.2794729419757, 25.63139073056338 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 3,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 6
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-21T18:27:00Z",
+  "fecha_solicitud" : "2019-08-21T18:27:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/d0db32b2-43ab-4d47-8678-8ba22fcdf279.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "7fecc3f9-aec4-4711-a8e8-7185ccf5af16",
+  "id_servicio" : 1043,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24044270000002, 25.5660196 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : "De acuerdo",
+  "created_date" : "2019-08-13T21:44:19.139Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "1",
+    "dominio" : "3",
+    "empatia" : "3",
+    "orden" : "4",
+    "proceso" : "2",
+    "puntualidad" : "4",
+    "rapidez" : "3"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d2798236b21884304180364",
+    "ars_createdAt" : "2019-07-11T20:12:19.631Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T21:43:10.356Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2451,
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-13T21:59:03.582Z",
+    "location" : {
+      "coordinates" : [ -100.2794453, 25.6314402 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 3,
+      "cancelados" : 0,
+      "comunicacion" : 4,
+      "dominio" : 2,
+      "empatia" : 4,
+      "orden" : 2,
+      "proceso" : 4,
+      "puntualidad" : 4,
+      "rapidez" : 4,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Cerrado",
+  "estatus_equipo" : "xf",
+  "fecha_servicio" : "2019-08-13T21:44:19.012Z",
+  "fecha_solicitud" : "2019-08-13T21:44:19.012Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "81c00acc-ebc2-4750-92cc-0255f92e72c8",
+  "id_servicio" : 1037,
+  "inicia_servicio" : "2019-08-13T21:45:39.040Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.279477, 25.6315049 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-13T21:45:36.896Z",
+    "foto" : "public/servicios/adb928b7-c8ce-4599-a42c-225de3d2ef71.png",
+    "id" : 0,
+    "nota" : "Estoy verificando la conexion de los cables",
+    "notaShort" : "Estoy verificando la..."
+  }, {
+    "fecha" : "2019-08-13T21:46:25.997Z",
+    "foto" : "public/servicios/b2d4d382-cb66-4064-947d-e4c873e5702d.png",
+    "id" : 1,
+    "nota" : "Ya voy a continuar con esta labor",
+    "notaShort" : "Ya voy a continuar c..."
+  }, {
+    "fecha" : "2019-08-13T21:51:15.544Z",
+    "foto" : "public/servicios/b8c43ad8-a939-4fc8-9ef7-f48df16564d3.png",
+    "id" : 2,
+    "nota" : "Ya casi acabo",
+    "notaShort" : "Ya casi acabo"
+  } ],
+  "notasTotal" : "2",
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "7b9537e0-3672-4255-a8b8-7cd8d30162d1",
+    "supervisor" : "8732da0d-d522-4cf8-be10-e199d433e0a2"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T20:54:34.532Z",
+  "descripcion" : "Ayúdenme por favor, necesito acabarme rápido está comida porque si no moriré de hambre",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Flux Capacitor",
+    "poliza" : "OUTATIME"
+  },
+  "especialista" : {
+    "_id" : "5d162c0d3ae9256c99fde883",
+    "ars_createdAt" : "2019-06-28T15:02:37.163Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T20:35:23.754Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2758,
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-12T22:08:29.297Z",
+    "location" : {
+      "coordinates" : [ -100.2795349785412, 25.631408537539155 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : -2,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 5
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T21:53:00Z",
+  "fecha_solicitud" : "2019-08-13T21:53:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/024f69ac-78ff-4800-992b-fd6654cc05fd.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "cb9b1667-9425-4622-85ce-a98987638aa7",
+  "id_servicio" : 1029,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.27946329999997, 25.6314761 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "Hardware",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Falla",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "35f966b2-fc5a-4c39-b04a-7439913eda4a",
+    "supervisor" : "6da398dd-1756-4499-870f-add2ac1462b9"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T16:42:12.376Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 18,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Gonzalez",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-12T18:29:29.373Z",
+  "descripcion" : "No funciona correctamente el teclado",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+    "nombre" : "Equipo XYZ",
+    "poliza" : "ABC"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-09T21:49:03.964Z",
+    "location" : {
+      "coordinates" : [ -100.29898604544002, 25.733494636282316 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 3,
+      "cancelados" : 1,
+      "comunicacion" : "NaN",
+      "dominio" : "NaN",
+      "empatia" : "NaN",
+      "orden" : "NaN",
+      "proceso" : "NaN",
+      "puntualidad" : "NaN",
+      "rapidez" : "NaN",
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-12T22:24:00Z",
+  "fecha_solicitud" : "2019-08-12T22:24:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/4a0852a3-fb7a-441c-b730-66bd0a49a84b.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "10016f28-96e5-497c-8f37-58b9703b058f",
+  "id_servicio" : 1023,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794576, 25.6314892 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "Hardware",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Falla",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "d70d4b0e-d87a-444b-b047-50cab4345e68",
+    "supervisor" : "e61c8ff8-add5-4283-86fa-6072f13f767d"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T16:00:07.835Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 30,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-08T16:30:32.035Z",
+  "descripcion" : "Esta es solo una prueba de como.se ven las notas largas en.la aplicación y si tienen forma se verse de forma clara",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-11T17:25:00Z",
+      "servicio" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-08T16:54:03.126Z",
+    "location" : {
+      "coordinates" : [ -100.2405693, 25.5655901 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-08T18:17:00Z",
+  "fecha_solicitud" : "2019-08-08T16:47:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/fa95f751-f75c-48c5-8e39-4386dedc43af.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "d96df8da-02bd-4243-89f0-632d9505e5e9",
+  "id_servicio" : 1015,
+  "inicia_servicio" : "2019-08-08T16:38:39.723Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2403658, 25.5658646 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-08T16:42:21.442Z",
+    "foto" : "public/servicios/f961c33c-6ef5-48dc-b0ff-54e20bcf0b19.png",
+    "id" : 0,
+    "nota" : "Iniciamos con la descompresión de los archivos de la base de datos que se encuentra en el equipo",
+    "notaShort" : "Iniciamos con la des..."
+  } ],
+  "notasTotal" : 0,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "20573194-31f5-491f-8302-516b50320d3e",
+    "supervisor" : "ec56bd63-5a09-4c02-95ab-e961ea6c9923"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T14:48:10.949Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 29,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-08T15:13:09.984Z",
+  "descripcion" : "Revisar pc porque se apaga",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "11",
+    "nombre" : "Equipo nuevo 31-4",
+    "poliza" : "Pol314"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-08T15:13:36.811Z",
+    "location" : {
+      "coordinates" : [ -100.2404488, 25.5658214 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 1,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Cancelado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-15T18:05:00Z",
+  "fecha_solicitud" : "2019-08-15T18:05:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/8b4a3063-f629-4133-89de-6171283ff8d7.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "477867be-a95d-4901-8c5f-1e3c981d2c82",
+  "id_servicio" : 1011,
+  "inicia_servicio" : "2019-08-08T15:22:34.531Z",
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.24045860000001, 25.5660137 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : null,
+  "plataforma" : "PC Industrial",
+  "rechazos" : 0,
+  "seccion_falla" : "Hardware",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Menor",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "9f56b8cb-fdcb-4724-9d4a-a118b7cf4bb2",
+    "supervisor" : "94b1286f-7859-49f6-8ac3-964a1244aa38"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T16:00:07.835Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 30,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-09T19:41:02.897Z",
+  "descripcion" : "Wrrtuutkkffjjfsghju",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-11T17:25:00Z",
+      "servicio" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-09T15:04:13.872Z",
+    "location" : {
+      "coordinates" : [ -100.240421, 25.5666513 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 2,
+      "cancelados" : 2,
+      "comunicacion" : 3,
+      "dominio" : 4.25,
+      "empatia" : 3.75,
+      "orden" : 4,
+      "proceso" : 3,
+      "puntualidad" : 4.5,
+      "rapidez" : 4.25,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-09T23:23:00Z",
+  "fecha_solicitud" : "2019-08-09T21:53:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/7aa0ec66-2079-4732-85d9-e50fe5282be4.png",
+  "frecuencia_falla" : "Siempre",
+  "id" : "53bf8ba1-caa1-4939-864c-d205fb37ff76",
+  "id_servicio" : 1021,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : null,
+  "plataforma" : "PC Industrial",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "Neumatico",
+  "servicio" : "Mantenimiento Preventivo",
+  "severidad" : "Falla",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "1a48b33b-8925-4db9-b034-c2686462c2e7",
+    "supervisor" : "7d9f5547-cd0e-4520-b62e-a35973629e75"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-05T14:25:54.356Z",
+  "descripcion" : "Ayud",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-05T14:39:03.981Z",
+    "location" : {
+      "coordinates" : [ -100.2404755, 25.5656737 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Cancelado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : null,
+  "fecha_solicitud" : "2019-08-05T15:25:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/c09c3bde-0a5a-4d34-8576-4e1155eec2a7.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "d47785f4-e826-40df-8484-4e55411930db",
+  "id_servicio" : 1000,
+  "inicia_servicio" : "2019-08-05T14:29:23.747Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24042029999998, 25.5660411 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-05T14:29:22.284Z",
+    "foto" : "public/servicios/6341bfd1-511e-4505-ad31-b4e11f44ce94.png",
+    "id" : 0,
+    "nota" : "Ttg",
+    "notaShort" : "..."
+  } ],
+  "notasTotal" : "0",
+  "plataforma" : "PLC+PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "Hidraulico",
+  "servicio" : "Soporte Tecnico",
+  "severidad" : "Bloqueo",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-05T14:38:04.734Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-05T14:39:03.981Z",
+    "location" : {
+      "coordinates" : [ -100.2404755, 25.5656737 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 1,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Cerrado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-05T18:40:00Z",
+  "fecha_solicitud" : "2019-08-05T15:40:00Z",
+  "finaliza_servicio" : "2019-08-05T15:16:18.554Z",
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "d977dd9d-b56c-4286-8e28-33b4d20e2388",
+  "id_servicio" : 1001,
+  "inicia_servicio" : "2019-08-05T15:14:57.535Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24044049999998, 25.5660158 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-05T15:12:21.911Z",
+    "foto" : "public/servicios/edb6b10a-7b73-463a-88ec-67b954dc66db.png",
+    "id" : 0,
+    "nota" : "Hola ",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T15:16:18.417Z",
+    "foto" : "public/servicios/3d5a3070-57a5-4376-8876-5d0dc9d8a9e2.png",
+    "id" : 1,
+    "nota" : "Acabe rápido ",
+    "notaShort" : "..."
+  } ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : "00:01:21 hrs"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-14T14:48:31.941Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d162c0d3ae9256c99fde883",
+    "ars_createdAt" : "2019-06-28T15:02:37.163Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-14T14:47:20.276Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 3188,
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-14T15:17:20.006Z",
+    "location" : {
+      "coordinates" : [ -100.27956029499072, 25.63134739512418 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 3,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 6
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-14T15:48:31.619Z",
+  "fecha_solicitud" : "2019-08-14T14:48:31.619Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "21f1595e-7d7a-4b9b-ab89-329541590e11",
+  "id_servicio" : 1041,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.27933823672981, 25.631495085478424 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T21:18:22.920Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d162c0d3ae9256c99fde883",
+    "ars_createdAt" : "2019-06-28T15:02:37.163Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T21:07:07.892Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2940,
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-13T21:37:07.518Z",
+    "location" : {
+      "coordinates" : [ -100.27945004347089, 25.63128878372735 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 5
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Cancelado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T21:18:22.737Z",
+  "fecha_solicitud" : "2019-08-13T21:18:22.737Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "d30a015e-4dcf-4aa5-8a76-a614a7bbd00e",
+  "id_servicio" : 1034,
+  "inicia_servicio" : "2019-08-13T21:22:06.020Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794565, 25.6314956 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-13T21:22:05.126Z",
+    "foto" : "public/servicios/04a97b15-7bf5-440e-9eaf-ba0117f8170b.png",
+    "id" : 0,
+    "nota" : "No me han abierto, voy a cancelar el servicio",
+    "notaShort" : "No me han abierto, v..."
+  } ],
+  "notasTotal" : 0,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "fbd4c093-4918-4878-861b-dc503704cd95",
+    "supervisor" : "c1088c21-00c4-4fc9-8960-581fc1fbe2f6"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T21:18:58.005Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 19,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Amanda Gonzalez Quintanilla",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T22:20:28.843Z",
+  "descripcion" : "Ayudenme",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+    "nombre" : "Equipo XYZ",
+    "poliza" : "ABC"
+  },
+  "especialista" : {
+    "_id" : "5d2798236b21884304180364",
+    "ars_createdAt" : "2019-07-11T20:12:19.631Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T22:13:23.047Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2466,
+    "calendario" : [ {
+      "fecha" : "2019-08-13T01:03:00Z",
+      "servicio" : "8fe8be12-2e63-40fb-b46d-57c9c8154c83"
+    }, {
+      "fecha" : "2019-08-13T01:03:00Z",
+      "servicio" : "8fe8be12-2e63-40fb-b46d-57c9c8154c83"
+    }, {
+      "fecha" : "2019-08-13T01:03:00Z",
+      "servicio" : "8fe8be12-2e63-40fb-b46d-57c9c8154c83"
+    } ],
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-13T22:34:06.438Z",
+    "location" : {
+      "coordinates" : [ -100.2794396, 25.6315843 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 5,
+      "cancelados" : 0,
+      "comunicacion" : 2.5,
+      "dominio" : 2.5,
+      "empatia" : 3.5,
+      "orden" : 3,
+      "proceso" : 3,
+      "puntualidad" : 4,
+      "rapidez" : 3.5,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T19:19:00Z",
+  "fecha_solicitud" : "2019-08-13T19:19:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/188c3a51-90f3-4e9c-852e-07d886a81fd2.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "a144b19d-25dd-467d-9ce8-547a216e2daf",
+  "id_servicio" : 1040,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.27945260000001, 25.6314566 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : null,
+  "plataforma" : "PC",
+  "prioridad" : "Alta",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : false,
+  "chat" : {
+    "cliente" : "f6d72155-040a-417a-8826-f2ed74b30257",
+    "supervisor" : "02d0b939-0e59-4b77-8a04-e8cc6e3a34e9"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T21:18:58.005Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 19,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Amanda Gonzalez Quintanilla",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T19:28:21.682Z",
+  "descripcion" : "Las teclas se desprenden al presionarlas",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+    "nombre" : "MCJHN117",
+    "poliza" : "SRN117"
+  },
+  "especialista" : null,
+  "estatus" : "Rechazado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T23:25:00Z",
+  "fecha_solicitud" : "2019-08-13T23:25:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/c18622c8-151b-4223-84f3-6eb9bb73beea.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "38a3ccef-bc5d-478f-ba9c-30e37d2e70eb",
+  "id_servicio" : 1027,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.27942719999999, 25.6314293 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 5,
+  "seccion_falla" : "Hardware",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Menor",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-14T14:56:57.302Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d0a56e00ac2cb75394a1d70",
+    "ars_createdAt" : "2019-06-19T15:38:07.980Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-14T14:39:25.639Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2703,
+    "calendario" : null,
+    "celular" : "+528110707478",
+    "email" : "nestorj.lopez@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "lastUpdate" : "2019-08-14T15:09:25.631Z",
+    "location" : {
+      "coordinates" : [ -100.28052, 25.6304363 ],
+      "type" : "Point"
+    },
+    "nombre" : "Néstor López",
+    "promedio" : {
+      "aceptados" : 3,
+      "cancelados" : 0,
+      "comunicacion" : 3,
+      "dominio" : 2,
+      "empatia" : 1,
+      "orden" : 3,
+      "proceso" : 4,
+      "puntualidad" : 4,
+      "rapidez" : 4,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-14T14:56:56.978Z",
+  "fecha_solicitud" : "2019-08-14T14:56:56.978Z",
+  "finaliza_servicio" : "2019-08-14T15:00:23.401Z",
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "d0a18ea8-10d6-41fe-835a-7bc9b9ef473a",
+  "id_servicio" : 1042,
+  "inicia_servicio" : "2019-08-14T14:59:01.119Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.27960589483388, 25.631425045377153 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-14T14:58:56.658Z",
+    "foto" : "public/servicios/8304fa7a-da52-4b43-a3fb-1168d03c0e53.png",
+    "id" : 0,
+    "nota" : "Error solucionado ",
+    "notaShort" : "Error solucionado "
+  }, {
+    "fecha" : "2019-08-14T15:00:22.476Z",
+    "foto" : "public/servicios/33868023-37ff-4baf-8f46-3df5d295034b.png",
+    "id" : 1,
+    "nota" : "Dijo su mamá que siempre no y me vine a tomar un café",
+    "notaShort" : "Dijo su mamá que sie..."
+  } ],
+  "notasTotal" : 0,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : " 00:01:22 hrs"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T20:55:49.212Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : null,
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T20:55:49.014Z",
+  "fecha_solicitud" : "2019-08-13T20:55:49.014Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "17d8fcb2-7136-4167-81c6-cef275e4cd1b",
+  "id_servicio" : 1030,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24044049999998, 25.5660158 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "c40f87d2-c21b-4425-b241-f3e430bf2b68",
+    "supervisor" : "325f6609-4ba0-48a1-8952-7d5ac29031c1"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-06T20:43:19.623Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 28,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-07T16:47:44.533Z",
+  "descripcion" : "Hi",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-07T16:55:13.140Z",
+    "location" : {
+      "coordinates" : [ -100.27955830027302, 25.63139407780745 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 1,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "En Progreso",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-07T18:47:00Z",
+  "fecha_solicitud" : "2019-08-07T17:47:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/138fd56b-5a71-480d-aac2-c11f163e8bf2.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "4d5c5431-a4b7-4ce1-8a15-822d692dfc4f",
+  "id_servicio" : 1010,
+  "inicia_servicio" : "2019-08-07T17:01:36.771Z",
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.27943930000004, 25.6314848 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-07T17:01:25.125Z",
+    "foto" : "public/servicios/96f3e5d5-fff0-4a9c-b85c-26574478134e.png",
+    "id" : 0,
+    "nota" : "Ya voy a iniciar con este trabajo rudimentario",
+    "notaShort" : "Ya voy a i..."
+  }, {
+    "fecha" : "2019-08-07T17:09:05.766Z",
+    "foto" : "public/servicios/2f4b153f-40b5-49e5-85b1-884dfefd777e.png",
+    "id" : 1,
+    "nota" : "Hola qué tal vas a la casa de tu casa de aquí a las dos a las clases de la tarde",
+    "notaShort" : "Hola qué t..."
+  }, {
+    "fecha" : "2019-08-07T17:01:25.125Z",
+    "foto" : "public/servicios/96f3e5d5-fff0-4a9c-b85c-26574478134e.png",
+    "id" : 0,
+    "nota" : "Ya voy a iniciar con este trabajo rudimentario",
+    "notaShort" : "Ya voy a iniciar con..."
+  } ],
+  "notasTotal" : "2",
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Soporte Tecnico",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T22:03:01.360Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "calendario" : [ ],
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-13T21:59:03.582Z",
+    "location" : {
+      "coordinates" : [ -100.2794453, 25.6314402 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 4,
+      "cancelados" : 0,
+      "comunicacion" : 2.5,
+      "dominio" : 2.5,
+      "empatia" : 3.5,
+      "orden" : 3,
+      "proceso" : 3,
+      "puntualidad" : 4,
+      "rapidez" : 3.5,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T22:02:59.935Z",
+  "fecha_solicitud" : "2019-08-13T22:02:59.935Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "b0985f30-94a4-4e67-8781-2616eac092a2",
+  "id_servicio" : 1038,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794637, 25.6314724 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T21:03:03.859Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "id" : null
+  },
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T21:03:03.659Z",
+  "fecha_solicitud" : "2019-08-13T21:03:03.659Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "1c2af5d7-b179-45de-b34e-7693115dc043",
+  "id_servicio" : 1031,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794093, 25.6313219 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T20:49:32.453Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : null,
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T20:49:32.265Z",
+  "fecha_solicitud" : "2019-08-13T20:49:32.265Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id_servicio" : 1028,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24044049999998, 25.5660158 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "5d1ed984-2359-43fe-8e09-cda05f15e829",
+    "supervisor" : "cb174a2a-b6cc-4226-805d-9eeece439cea"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : "Tous est très bien, seul que le emploi ne parler français :p",
+  "created_date" : "2019-08-08T22:09:13.660Z",
+  "descripcion" : "F",
+  "encuesta" : {
+    "comunicacion" : "4",
+    "dominio" : "3",
+    "empatia" : "3",
+    "orden" : "5",
+    "proceso" : "2",
+    "puntualidad" : "5",
+    "rapidez" : "2"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "DW 13",
+    "poliza" : "23NOV63"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-08T22:27:52.568Z",
+    "location" : {
+      "coordinates" : [ -100.29899954142907, 25.73348205866573 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 1,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-08T23:05:00Z",
+  "fecha_solicitud" : "2019-08-08T23:05:00Z",
+  "finaliza_servicio" : "2019-08-08T22:33:46.872Z",
+  "foto" : "public/servicios/c2481786-52e6-4914-88f2-d91332166166.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "6ee0356c-abf4-45a5-9a8b-f96ed19ac734",
+  "id_servicio" : 1018,
+  "inicia_servicio" : "2019-08-08T22:11:41.153Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.29901240198683, 25.733385910541614 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-08T22:20:24.981Z",
+    "foto" : "public/servicios/a788e24e-1722-4024-92d0-dabfbd58dce1.png",
+    "id" : 0,
+    "nota" : "Aqui ando ya trabajando para usted en este equipo",
+    "notaShort" : "Aqui ando ya trabaja..."
+  }, {
+    "fecha" : "2019-08-08T22:26:31.618Z",
+    "foto" : "public/servicios/f55464b6-7308-4c26-8da5-9bc53211f0c6.png",
+    "id" : 1,
+    "nota" : "Ya casi termino de arreglar esto",
+    "notaShort" : "Ya casi termino de a..."
+  }, {
+    "fecha" : "2019-08-08T22:30:17.328Z",
+    "foto" : "public/servicios/5a168db8-5097-4ecb-adb4-4d0e22661731.png",
+    "id" : 2,
+    "nota" : "Ya ahora si estoy por terminar esta labor",
+    "notaShort" : "Ya ahora si estoy po..."
+  }, {
+    "fecha" : "2019-08-08T22:33:46.571Z",
+    "foto" : "public/servicios/81710b9c-c16a-4b32-a9e0-e093cbea47e8.png",
+    "id" : 3,
+    "nota" : "Ya acabe, el funcionamiento de esta maquinaria parece el correcto, creo que esto sería todo, póngame las 5 estrellas",
+    "notaShort" : "Ya acabe, el funcion..."
+  } ],
+  "notasTotal" : 2,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : " 00:22:05 hrs"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T21:04:47.702Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d162c0d3ae9256c99fde883",
+    "ars_createdAt" : "2019-06-28T15:02:37.163Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T20:55:26.111Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2759,
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-12T22:08:29.297Z",
+    "location" : {
+      "coordinates" : [ -100.2795349785412, 25.631408537539155 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 5
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T21:04:47.530Z",
+  "fecha_solicitud" : "2019-08-13T21:04:47.530Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "7dda7214-38b3-449f-b4dc-e43e63e45bc7",
+  "id_servicio" : 1032,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794675, 25.6314878 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : false,
+  "chat" : {
+    "cliente" : "c3c1a820-0231-4e9c-8acf-55cd90c3e6c6",
+    "supervisor" : "f24a9842-1439-47d3-85c1-76e64c9c3164"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T14:48:10.949Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 29,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-08T15:30:31.194Z",
+  "descripcion" : "Mantenimiento septiembre",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Port2 Rob",
+    "poliza" : "Security7"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-08T15:44:09.708Z",
+    "location" : {
+      "coordinates" : [ -100.2401161, 25.565899 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : -2,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-11T17:25:00Z",
+  "fecha_solicitud" : "2019-08-11T17:25:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/9342d9e4-bf90-4c65-9bd2-af8e4bd87227.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8",
+  "id_servicio" : 1012,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.2404449, 25.5660179 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : null,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Preventivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e632153b-540a-4c1e-9b9d-4b1b2b1b903a",
+    "supervisor" : "4b0cf6d3-eb80-4376-8064-9a167ef586ad"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T16:42:12.376Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 18,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Gonzalez",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-12T20:15:56.322Z",
+  "descripcion" : "Al parecer hay un falso contacto",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+    "nombre" : "MCJHN117",
+    "poliza" : "SRN117"
+  },
+  "especialista" : {
+    "_id" : "5d0a56e00ac2cb75394a1d70",
+    "calendario" : null,
+    "celular" : "+528110707478",
+    "email" : "nestorj.lopez@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "lastUpdate" : "2019-08-12T21:05:22.022Z",
+    "location" : {
+      "coordinates" : [ -100.2675316, 25.7466579 ],
+      "type" : "Point"
+    },
+    "nombre" : "Néstor López",
+    "promedio" : {
+      "aceptados" : 2,
+      "cancelados" : 0,
+      "comunicacion" : 3,
+      "dominio" : 2,
+      "empatia" : 1,
+      "orden" : 3,
+      "proceso" : 4,
+      "puntualidad" : 4,
+      "rapidez" : 4,
+      "rechazados" : 1
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T00:15:00Z",
+  "fecha_solicitud" : "2019-08-13T00:15:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/2df7bd76-fa32-455e-8b21-6a077b57283b.png",
+  "frecuencia_falla" : "Aleatorio",
+  "id" : "967398b1-8720-4398-a903-1f22eba3e5e3",
+  "id_servicio" : 1025,
+  "inicia_servicio" : "2019-08-12T20:59:44.077Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2675592, 25.7465768 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-12T20:59:39.996Z",
+    "foto" : "public/servicios/0b66013a-090f-42ae-8927-1cd41926b6b3.png",
+    "id" : 0,
+    "nota" : "Es un servicio largo, tengo tos, estornudo, contaminare a todos Jojo \nPrueba uno dos tres, one two three, un deux troi ",
+    "notaShort" : "Es un servicio largo..."
+  }, {
+    "fecha" : "2019-08-12T21:00:41.851Z",
+    "foto" : "public/servicios/fcd24939-957f-4213-8cc0-cc6057bf564c.png",
+    "id" : 1,
+    "nota" : "Dos o tres más y ya terminamos aquí ",
+    "notaShort" : "Dos o tres más y ya ..."
+  } ],
+  "notasTotal" : 1,
+  "plataforma" : "Switching",
+  "rechazos" : 0,
+  "seccion_falla" : "Electrico",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Falla",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "24deeb53-dfd5-484f-95ac-da8eefc1a9ac",
+    "supervisor" : "1481a387-fed0-4696-8416-e4ac814e6e85"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-08T16:00:07.835Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 30,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    }, {
+      "id" : null,
+      "nombre" : "ESD tester",
+      "poliza" : "XYZ"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : "Ok adelante",
+  "created_date" : "2019-08-08T16:52:06.522Z",
+  "descripcion" : "Equipo parado",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "4",
+    "empatia" : "5",
+    "orden" : "5",
+    "proceso" : "3",
+    "puntualidad" : "5",
+    "rapidez" : "4"
+  },
+  "equipo" : {
+    "id" : "33",
+    "nombre" : "Equipo nuevo 1-1",
+    "poliza" : "POLIZA11"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-11T17:25:00Z",
+      "servicio" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-08T16:54:03.126Z",
+    "location" : {
+      "coordinates" : [ -100.2405693, 25.5655901 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-08T21:48:00Z",
+  "fecha_solicitud" : "2019-08-08T19:48:00Z",
+  "finaliza_servicio" : "2019-08-08T17:01:00.882Z",
+  "foto" : "public/servicios/7ff47bd6-8439-4648-8295-623f573db8ef.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "e6d16d35-6083-46e1-8b00-b71d56ae0287",
+  "id_servicio" : 1016,
+  "inicia_servicio" : "2019-08-08T16:54:22.345Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24040400000001, 25.5659195 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-08T16:54:04.572Z",
+    "foto" : "public/servicios/1cfdfc6a-0005-41f7-99c3-c5e15f692ddd.png",
+    "id" : 0,
+    "nota" : "Se llega a equipo y se encuentra que se tiene un mal procedimiento para desalojar las unidades bajo prueba y las unidades segregadas",
+    "notaShort" : "Se llega a equipo y ..."
+  }, {
+    "fecha" : "2019-08-08T16:57:38.456Z",
+    "foto" : "public/servicios/9a2bc26c-1c1c-4cd0-8325-b76defdfc38c.png",
+    "id" : 1,
+    "nota" : "El gerente no quiere darnos oportunidades de meterme a sus instalaciones y por consciente nos retiramos",
+    "notaShort" : "El gerente no quiere..."
+  }, {
+    "fecha" : "2019-08-08T17:01:02.308Z",
+    "foto" : "public/servicios/6580d25a-e546-449c-8146-f5f4843bdea8.png",
+    "id" : 2,
+    "nota" : "Se termina el servicio en y el equipo queda funcional",
+    "notaShort" : "Se termina el servic..."
+  } ],
+  "notasTotal" : 1,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : " 00:06:38 hrs"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "d5b2470c-a50d-48fc-9c9b-0cc7a92333ba",
+    "supervisor" : "aed23302-1807-4062-b7f7-58ee2e9f5c43"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : "Mandar cotización",
+  "created_date" : "2019-08-05T15:38:46.733Z",
+  "descripcion" : "El equipo no esta leyendo el escaner",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "5",
+    "empatia" : "4",
+    "orden" : "4",
+    "proceso" : "3",
+    "puntualidad" : "4",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "33",
+    "nombre" : "Equipo nuevo 1-1",
+    "poliza" : "POLIZA11"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-05T15:49:04.685Z",
+    "location" : {
+      "coordinates" : [ -100.2402576, 25.5656803 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Cerrado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-05T17:10:00Z",
+  "fecha_solicitud" : "2019-08-05T16:40:00Z",
+  "finaliza_servicio" : "2019-08-05T15:51:35.899Z",
+  "foto" : "public/servicios/0eb47f83-d291-42d3-9c5f-0b6ca3ddcbe0.png",
+  "frecuencia_falla" : "Siempre",
+  "id" : "c2c2074a-994c-48c3-873a-8bb3c369d19d",
+  "id_servicio" : 1002,
+  "inicia_servicio" : "2019-08-05T15:44:44.899Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-05T15:44:27.808Z",
+    "foto" : "public/servicios/bc6fa42a-32c9-4358-bf90-40ea10e7612a.png",
+    "id" : 0,
+    "nota" : "Iniciamos con el. Diagnóstico del. Equipo",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T15:46:49.564Z",
+    "foto" : "public/servicios/d3f6b6dc-343d-413c-8057-bb77cb9cb433.png",
+    "id" : 1,
+    "nota" : "Se encontró que el escaner está desconectado",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T15:48:26.120Z",
+    "foto" : "public/servicios/f51decfd-e1c9-4d77-85a8-b410bf8c2293.png",
+    "id" : 2,
+    "nota" : "Se prueba el equipo y ya se encuentra funcional ",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T15:51:35.892Z",
+    "foto" : "public/servicios/a4878cee-61a9-454f-80a0-59f18bea7bfc.png",
+    "id" : 3,
+    "nota" : "El equipo se entregó a líder de línea funcionalmente ok",
+    "notaShort" : "..."
+  } ],
+  "notasTotal" : "2",
+  "plataforma" : "PC Industrial",
+  "rechazos" : 0,
+  "seccion_falla" : "Software",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Falla",
+  "tiempo" : "00:06:51 hrs"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "4d112947-9ed1-4167-afa9-dc0eed48c93b",
+    "supervisor" : "562e96f2-3bd4-49eb-a054-9f6a5cdb56da"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : "O les encargo mucho estar alertas",
+  "created_date" : "2019-08-05T16:28:47.929Z",
+  "descripcion" : "Se necesita soporte técnico en linea 1",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "5",
+    "empatia" : "2",
+    "orden" : "5",
+    "proceso" : "5",
+    "puntualidad" : "4",
+    "rapidez" : "3"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Ind H343",
+    "poliza" : "POLIZA2"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-05T16:24:35.964Z",
+    "location" : {
+      "coordinates" : [ -100.24031, 25.5657207 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 0,
+      "comunicacion" : 3,
+      "dominio" : 4,
+      "empatia" : 4,
+      "orden" : 3,
+      "proceso" : 2,
+      "puntualidad" : 4.5,
+      "rapidez" : 5,
+      "rechazados" : 0
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Cerrado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-05T17:45:00Z",
+  "fecha_solicitud" : "2019-08-05T16:45:00Z",
+  "finaliza_servicio" : "2019-08-05T16:53:18.861Z",
+  "foto" : "public/servicios/1884f803-26af-42d0-b68a-3855608a7162.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "19cf4c03-3279-4594-8856-60b33223444e",
+  "id_servicio" : 1004,
+  "inicia_servicio" : "2019-08-05T16:35:49.925Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-05T16:35:46.294Z",
+    "foto" : "public/servicios/fcd13b97-852d-4c0d-9bcf-61b23905c021.png",
+    "id" : 0,
+    "nota" : "Vamos llegando al equipo y se encuentra apagado",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:39:35.706Z",
+    "foto" : "public/servicios/bb5371b8-0312-4714-8542-7d48d52952b9.png",
+    "id" : 1,
+    "nota" : "Se procede a encender equipo y se trata de provocar falla",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:43:21.728Z",
+    "foto" : "public/servicios/196f1b79-5387-4b7a-b352-9fc40d199c2a.png",
+    "id" : 2,
+    "nota" : "Seguimos batallando para reproducir falla",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:44:21.133Z",
+    "foto" : "public/servicios/21297f41-da95-4d7f-84d7-ddf08a27674d.png",
+    "id" : 3,
+    "nota" : "Al parecer ya se encontró el. Problema procedemos a volver a reproducirlo",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:45:30.108Z",
+    "foto" : "public/servicios/1eb21f85-f638-423a-82ea-1f3fa94d30df.png",
+    "id" : 4,
+    "nota" : "Se encontró que el puerto de la pc al parecer no está funcionando ",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:46:24.115Z",
+    "foto" : "public/servicios/9302441d-dd21-4699-8444-9b8fe896772c.png",
+    "id" : 5,
+    "nota" : "Ya se logró corregir el puerto y se cambió de escaner",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:47:36.482Z",
+    "foto" : "public/servicios/b22e100d-7013-4835-9304-700dd7a4b007.png",
+    "id" : 6,
+    "nota" : "Se procede a configurar puerto",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:48:23.577Z",
+    "foto" : "public/servicios/95e0bf69-23f0-4cd9-bec4-0a3a07345476.png",
+    "id" : 7,
+    "nota" : "Queda solucionado el. Problema",
+    "notaShort" : "..."
+  }, {
+    "fecha" : "2019-08-05T16:53:18.917Z",
+    "foto" : "public/servicios/bd842ab3-61ac-4d7d-9cc5-e97a896a72d0.png",
+    "id" : 8,
+    "nota" : "Se tuvo un comportamiento del. Sistema adecuado y se procede a liberar sistema",
+    "notaShort" : "..."
+  } ],
+  "notasTotal" : "7",
+  "plataforma" : "PC Industrial",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Soporte Técnico",
+  "severidad" : "N/A",
+  "tiempo" : "00:17:28 hrs"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "768caa4e-21f2-4b7d-9b78-925ab4d4f51a",
+    "supervisor" : "94496ec6-9987-4635-9c80-4663b170c74f"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T16:42:12.376Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 18,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Gonzalez",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-12T19:51:37.035Z",
+  "descripcion" : "El teclado del equipo se queda atorado",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+    "nombre" : "ALN8PSSNGR",
+    "poliza" : "RPLY"
+  },
+  "especialista" : {
+    "_id" : "5d2798236b21884304180364",
+    "ars_createdAt" : "2019-07-11T20:12:19.631Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T19:39:03.601Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2436,
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-12T20:09:03.596Z",
+    "location" : {
+      "coordinates" : [ -100.2793364, 25.631451 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "En Progreso",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-12T22:50:00Z",
+  "fecha_solicitud" : "2019-08-12T22:50:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/0fca1a2f-4ef0-481b-8c8f-da8e0c1cc994.png",
+  "frecuencia_falla" : "Siempre",
+  "id" : "a32787e8-d325-40a3-8bf6-2f2b62ee4743",
+  "id_servicio" : 1024,
+  "inicia_servicio" : "2019-08-12T20:21:26.126Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.27945039999997, 25.6314943 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-12T20:21:23.015Z",
+    "foto" : "public/servicios/ea7abc05-38e1-4a67-97c7-4cf859e1117e.png",
+    "id" : 0,
+    "nota" : "No se ve la falla a simple vista, tendria que hacer uns revision interna del equipo",
+    "notaShort" : "No se ve la falla a ..."
+  } ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "Hardware",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Bloqueo",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "3724b1b3-5b10-457c-8ffb-dd69a457acf5",
+    "supervisor" : "351f5c42-61f2-4364-b6ea-dc7c59ae3746"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-09T14:10:47.060Z",
+  "descripcion" : "Servicios",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Flux Capacitor",
+    "poliza" : "OUTATIME"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-09T14:35:35.984Z",
+    "location" : {
+      "coordinates" : [ -100.27665688562823, 25.708719250519312 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 2,
+      "cancelados" : 1,
+      "comunicacion" : "NaN",
+      "dominio" : "NaN",
+      "empatia" : "NaN",
+      "orden" : "NaN",
+      "proceso" : "NaN",
+      "puntualidad" : "NaN",
+      "rapidez" : "NaN",
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-09T16:24:00Z",
+  "fecha_solicitud" : "2019-08-09T16:09:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/483e0081-9854-4c97-968a-ed96e981c02b.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "f2c03cc1-6ba2-4cf4-8970-6878fded5b51",
+  "id_servicio" : 1019,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.29894138217537, 25.73339829679766 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "87798e44-7cda-4422-aa51-3b8e73a3c5ce",
+    "supervisor" : "66b7ec57-bcb2-4ee4-aa35-09cde78e89c1"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-06T20:43:19.623Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 28,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : "Xx",
+  "created_date" : "2019-08-07T16:25:00.240Z",
+  "descripcion" : "Hi",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-07T16:05:06.590Z",
+    "location" : {
+      "coordinates" : [ -100.27957312222766, 25.63134678672578 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 1,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-07T18:24:00Z",
+  "fecha_solicitud" : "2019-08-07T18:24:00Z",
+  "finaliza_servicio" : "2019-08-07T16:34:51.837Z",
+  "foto" : "public/servicios/e61f7e4f-1d89-4529-8fc8-d86ea9de3601.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "1cd005c1-5853-4802-8b92-87fbd1e8114f",
+  "id_servicio" : 1009,
+  "inicia_servicio" : "2019-08-07T16:28:46.184Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794609, 25.6314839 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-07T16:29:41.106Z",
+    "foto" : "public/servicios/33d2f635-0c6e-4669-bb10-9b3caa41fd3a.png",
+    "id" : 0,
+    "nota" : "Así ando ya trabajando en la maquinaria, ya estoy por acabar el jale",
+    "notaShort" : "Así ando ya trabajan..."
+  }, {
+    "fecha" : "2019-08-07T16:33:14.629Z",
+    "foto" : "public/servicios/97dcc4f4-0154-48e6-851d-b1833c410d2c.png",
+    "id" : 1,
+    "nota" : "Ya estoy aquí trabajando, cuando acabe yo le informaré ",
+    "notaShort" : "Ya estoy aquí trabaj..."
+  }, {
+    "fecha" : "2019-08-07T16:34:51.724Z",
+    "foto" : "public/servicios/f4971cbe-aa0e-4e11-835f-ccbc9a070a67.png",
+    "id" : 2,
+    "nota" : "Ya he acabado, que le parece esta interesante reparación de la máquina"
+  } ],
+  "notasTotal" : 1,
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : " 00:06:05 hrs"
+}, {
+  "activar" : false,
+  "chat" : {
+    "cliente" : "1e9d7dc6-bb2d-4395-8b88-1d23a02c5f40",
+    "supervisor" : "9a4f377e-ab5e-468c-933e-d5843ce6e836"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T16:42:12.376Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 18,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Gonzalez",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-12T20:51:32.338Z",
+  "descripcion" : "Los cables se encuentran a la vista",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+    "nombre" : "MCJHN117",
+    "poliza" : "SRN117"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-12T20:39:22.693Z",
+    "location" : {
+      "coordinates" : [ -100.27957333582333, 25.631409058353157 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 5,
+      "cancelados" : 1,
+      "comunicacion" : "NaN",
+      "dominio" : "NaN",
+      "empatia" : "NaN",
+      "orden" : "NaN",
+      "proceso" : "NaN",
+      "puntualidad" : "NaN",
+      "rapidez" : "NaN",
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-14T20:39:00Z",
+  "fecha_solicitud" : "2019-08-14T20:39:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/6d4863f0-db94-41e1-9eb6-d1d1349236d0.png",
+  "frecuencia_falla" : "Siempre",
+  "id" : "ff089e9c-3b28-4bb0-8be2-411f9d5a6402",
+  "id_servicio" : 1026,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.24849699999999, 25.5754549 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "Otros",
+  "rechazos" : 0,
+  "seccion_falla" : "Electrico",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Menor",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : "No salió nada bien",
+  "created_date" : "2019-08-13T21:40:58.283Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d2798236b21884304180364",
+    "ars_createdAt" : "2019-07-11T20:12:19.631Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T21:38:48.164Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2448,
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-13T21:59:03.582Z",
+    "location" : {
+      "coordinates" : [ -100.2794453, 25.6314402 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 2,
+      "cancelados" : 0,
+      "comunicacion" : 4,
+      "dominio" : 2,
+      "empatia" : 4,
+      "orden" : 2,
+      "proceso" : 4,
+      "puntualidad" : 4,
+      "rapidez" : 4,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : "sd",
+  "fecha_servicio" : "2019-08-13T21:40:58.096Z",
+  "fecha_solicitud" : "2019-08-13T21:40:58.096Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "3bc049cd-68d1-4faf-842d-f06af67a6fed",
+  "id_servicio" : 1036,
+  "inicia_servicio" : "2019-08-13T21:42:40.130Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794541, 25.6314951 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-13T21:42:36.352Z",
+    "foto" : "public/servicios/b0c0d8a1-1a2c-4c14-8434-e77c65a75955.png",
+    "id" : 0,
+    "nota" : "Ya iniciare con el trabajo referente a las reparaciones en el teclado",
+    "notaShort" : "Ya iniciare con el t..."
+  } ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "9aca0eb7-2859-4687-91fe-f05d0a3a4b30",
+    "supervisor" : "abe1898c-427f-4d78-8536-45b9465f567a"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-07-23T16:01:39.492Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 16,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo 1 Jonh",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "Equipo 2x",
+      "poliza" : ""
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Gonzalez",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-09T15:58:40.782Z",
+  "descripcion" : null,
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "8f7df524-babe-11e9-81f5-02423125f7f2",
+    "nombre" : null
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-11T17:25:00Z",
+      "servicio" : "ccff7303-8fef-4dca-8b3f-bdbc9486b9c8"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-15T18:05:00Z",
+      "servicio" : "477867be-a95d-4901-8c5f-1e3c981d2c82"
+    }, {
+      "fecha" : "2019-08-10T18:00:00Z",
+      "servicio" : "41bc77eb-3d35-4b52-9a75-22623d3702cc"
+    }, {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-09T15:04:13.872Z",
+    "location" : {
+      "coordinates" : [ -100.240421, 25.5666513 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 2,
+      "comunicacion" : 3,
+      "dominio" : 4.25,
+      "empatia" : 3.75,
+      "orden" : 4,
+      "proceso" : 3,
+      "puntualidad" : 4.5,
+      "rapidez" : 4.25,
+      "rechazados" : 1
+    },
+    "supervisor" : {
+      "id" : "4b89e6c3-0607-41c6-a414-d17259eac9c0",
+      "nombre" : "Jorge Murrieta"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-09T19:56:00Z",
+  "fecha_solicitud" : "2019-08-09T19:56:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/c9ad3805-fa84-4644-929d-32674ae3fa84.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "8ab26663-0dde-43c3-a706-5c4d7b1f56a0",
+  "id_servicio" : 1020,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.28185544064769, 25.687072850389363 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : "Comentario final",
+  "created_date" : "2019-08-13T21:23:48.149Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "4",
+    "dominio" : "2",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "4",
+    "puntualidad" : "4",
+    "rapidez" : "4"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "_id" : "5d2798236b21884304180364",
+    "ars_createdAt" : "2019-07-11T20:12:19.631Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T21:24:57.982Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2443,
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-12T22:14:03.270Z",
+    "location" : {
+      "coordinates" : [ -100.2794386, 25.6314921 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 0,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Finalizado",
+  "estatus_equipo" : "Completamente Funcional",
+  "fecha_servicio" : "2019-08-13T21:23:48.016Z",
+  "fecha_solicitud" : "2019-08-13T21:23:48.016Z",
+  "finaliza_servicio" : "2019-08-13T21:33:00.014Z",
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "ff561762-90c3-4f46-9b8e-48c561658884",
+  "id_servicio" : 1035,
+  "inicia_servicio" : "2019-08-13T21:27:23.965Z",
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794776, 25.6314882 ],
+    "type" : "Point"
+  },
+  "notas" : [ {
+    "fecha" : "2019-08-13T21:27:20.585Z",
+    "foto" : "public/servicios/9ce2bb93-f801-421f-89d8-030a0a231386.png",
+    "id" : 0,
+    "nota" : "Ahora voy a iniciar el servicio, creo qjw me cistara un poco pero con ezfuerzo y dedicacion lo lograre",
+    "notaShort" : "Ahora voy a iniciar ..."
+  }, {
+    "fecha" : "2019-08-13T21:30:09.231Z",
+    "foto" : "public/servicios/b7ae10fb-027d-4fca-8424-b5dda2f2db66.png",
+    "id" : 1,
+    "nota" : "Aqui estoy trabajando en la reparacion del teclado en cuestion, creo que ya encontre el problema. Tengo que sustituirlo por uni completamente nuevo y renovado para que de esta forma se pueda escribur con normalidad sin preocuparse porque se vaya a descomponer nuevamente",
+    "notaShort" : "Aqui estoy trabajand..."
+  }, {
+    "fecha" : "2019-08-13T21:31:18.266Z",
+    "foto" : "public/servicios/ac2c163a-f28b-4148-b01e-5c11b332b420.png",
+    "id" : 2,
+    "nota" : "Ya casi termino con el teclado",
+    "notaShort" : "Ya casi termino con ..."
+  }, {
+    "fecha" : "2019-08-13T21:32:59.444Z",
+    "foto" : "public/servicios/4adccfb8-cd1b-4fb7-96e7-0727c0ae5d3f.png",
+    "id" : 3,
+    "nota" : "Ya se ha concluido, el teclado ahora es completamente funcional",
+    "notaShort" : "Ya se ha concluido, ..."
+  } ],
+  "notasTotal" : "2",
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 1,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : "00:05:36 hrs"
+}, {
+  "activar" : false,
+  "chat" : {
+    "cliente" : "cab10b7a-2e21-435c-8579-ba5a970b3dd7",
+    "supervisor" : "0f7a211b-7dd7-48f4-8442-c495b1ffc6ca"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-02T22:42:38.633Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 27,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "47a87a75-30e4-4126-b7a4-995dc1c8be0d",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-05T16:23:20.801Z",
+  "descripcion" : "Estaremos en linea 1",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "11",
+    "nombre" : "Equipo nuevo 31-4",
+    "poliza" : "Pol314"
+  },
+  "especialista" : {
+    "calendario" : [ {
+      "fecha" : "2019-08-04T00:03:00Z",
+      "servicio" : "ee4f18ef-2035-4ff0-8929-322fa0b4aa8d"
+    } ],
+    "celular" : "+528110707478",
+    "email" : "nestor.lopez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "e7b1955d-dade-4cae-bb89-5622396ba2f1",
+    "lastUpdate" : "2019-08-05T16:24:35.964Z",
+    "location" : {
+      "coordinates" : [ -100.24031, 25.5657207 ],
+      "type" : "Point"
+    },
+    "nombre" : "William Perez",
+    "promedio" : {
+      "aceptados" : 1,
+      "cancelados" : 0,
+      "comunicacion" : 3,
+      "dominio" : 4,
+      "empatia" : 4,
+      "orden" : 3,
+      "proceso" : 2,
+      "puntualidad" : 4.5,
+      "rapidez" : 5,
+      "rechazados" : 0
+    },
+    "supervisor" : {
+      "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+      "nombre" : "Lydia Gonzalez"
+    },
+    "tipo" : "Especialista"
+  },
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-05T16:40:00Z",
+  "fecha_solicitud" : "2019-08-05T16:40:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/19080c03-5b84-42d0-9241-73d4f69ca643.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "ac322988-646f-4ad9-8277-0d3e0a80a75a",
+  "id_servicio" : 1003,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.24023399999999, 25.566148 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "plataforma" : "PC Industrial",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "e0a2c0d8-f31c-409c-8e52-8fb10342d011",
+    "supervisor" : "38ec97b8-b8aa-4412-805c-dee4a8f3ab77"
+  },
+  "cliente" : {
+    "_id" : "5d48b157515f8c4751960d0e",
+    "ars_createdAt" : "2019-08-05T22:44:38.968Z",
+    "ars_createdBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_modifiedAt" : "2019-08-08T22:04:53.354Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 4,
+    "created_date" : "2019-08-04T22:44:50Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    } ],
+    "email" : [ "matiasleonardomarin@gmail.com" ],
+    "empresa" : "Incorporated Inc",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Flux Capacitor",
+      "poliza" : "OUTATIME"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "DW 13",
+      "poliza" : "23NOV63"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Leonardo Marin",
+    "updated_date" : "2019-08-05T22:44:50Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T21:11:42.504Z",
+  "descripcion" : "Ayudame",
+  "encuesta" : {
+    "comunicacion" : "3",
+    "dominio" : "3",
+    "empatia" : "4",
+    "orden" : "2",
+    "proceso" : "1",
+    "puntualidad" : "5",
+    "rapidez" : "5"
+  },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+    "nombre" : "Equipo T800",
+    "poliza" : "XYZ"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-13T21:37:07.518Z",
+    "location" : {
+      "coordinates" : [ -100.27945004347089, 25.63128878372735 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : 0,
+      "cancelados" : 2,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 5
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Nuevo",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T21:11:42.302Z",
+  "fecha_solicitud" : "2019-08-13T21:11:42.302Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/1b211b2b-c538-4d99-83b2-69439ec2938a.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "e35d10f5-dfe2-491b-8dc0-6af55a95794c",
+  "id_servicio" : 1033,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.2794472, 25.6314886 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : "0",
+  "plataforma" : "PC",
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "N/A"
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "b8223a5a-f486-45ef-a58e-0e124617db3f",
+    "supervisor" : "4cfbb1b0-24d4-4eca-8449-31f2cca3d890"
+  },
+  "cliente" : {
+    "_id" : "5d0cfeb061fe57696da427f3",
+    "ars_createdAt" : "2019-06-21T15:58:40.721Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-12T21:18:58.005Z",
+    "ars_modifiedBy" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 19,
+    "created_date" : "2019-06-21T15:59:25Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.279644, 25.631457 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Garza Sada"
+    }, {
+      "direccion" : "Blvd. Jesus Valdez Sanchez, Topochico, 25284 Saltillo, Coah.",
+      "location" : {
+        "coordinates" : [ -100.9945855, 25.4336293 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Saltillo"
+    }, {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.248497, 25.5754549 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal Machine Care"
+    } ],
+    "email" : [ "lydia.gonzalez@otconsulting.com.mx" ],
+    "empresa" : "Empresa Demo",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc55",
+      "nombre" : "Equipo XYZ",
+      "poliza" : "ABC"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+      "nombre" : "ALN8PSSNGR",
+      "poliza" : "RPLY"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc45",
+      "nombre" : "MCJHN117",
+      "poliza" : "SRN117"
+    } ],
+    "estatus" : "Activo",
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "nombre" : "Lydia Amanda Gonzalez Quintanilla",
+    "updated_date" : "2019-06-21T15:59:25Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-13T22:05:05.661Z",
+  "descripcion" : "Ayudenme por favor",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "f647ca7d-65fb-47b1-8777-7529cbebfc35",
+    "nombre" : "ALN8PSSNGR",
+    "poliza" : "RPLY"
+  },
+  "especialista" : {
+    "_id" : "5d2798236b21884304180364",
+    "ars_createdAt" : "2019-07-11T20:12:19.631Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-13T22:04:06.601Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 2461,
+    "celular" : "+528180260648",
+    "email" : "lydia.gonzalez@otconsulting.com.mx",
+    "estatus" : true,
+    "free" : true,
+    "id" : "8f7cad95-f2c8-4aa9-87b3-42bfa15b9d6f",
+    "lastUpdate" : "2019-08-13T22:34:06.438Z",
+    "location" : {
+      "coordinates" : [ -100.2794396, 25.6315843 ],
+      "type" : "Point"
+    },
+    "nombre" : "Lydia Gonzalez",
+    "promedio" : {
+      "aceptados" : 4,
+      "cancelados" : 0,
+      "comunicacion" : 2.5,
+      "dominio" : 2.5,
+      "empatia" : 3.5,
+      "orden" : 3,
+      "proceso" : 3,
+      "puntualidad" : 4,
+      "rapidez" : 3.5,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Aceptado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-13T01:03:00Z",
+  "fecha_solicitud" : "2019-08-13T01:03:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/39c6bfbc-1ebe-4c41-8045-22e54eace5fc.png",
+  "frecuencia_falla" : "Siempre",
+  "id" : "8fe8be12-2e63-40fb-b46d-57c9c8154c83",
+  "id_servicio" : 1039,
+  "inicia_servicio" : null,
+  "inmediato" : false,
+  "location" : {
+    "coordinates" : [ -100.27943959999999, 25.6315843 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : null,
+  "plataforma" : "PC",
+  "prioridad" : "Alta",
+  "rechazos" : 0,
+  "seccion_falla" : "Hidraulico",
+  "servicio" : "Mantenimiento Correctivo",
+  "severidad" : "Falla",
+  "tiempo" : null
+}, {
+  "activar" : true,
+  "chat" : {
+    "cliente" : "6143f75d-f918-49b6-b1b1-2439966c736d",
+    "supervisor" : "683f1360-970f-419f-8768-f7e7373dfdd0"
+  },
+  "cliente" : {
+    "_id" : "5d276c4b173bed255a58a271",
+    "ars_createdAt" : "2019-07-11T17:05:15.097Z",
+    "ars_createdBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_modifiedAt" : "2019-08-06T20:43:19.623Z",
+    "ars_modifiedBy" : "85941222-2793-492e-96af-f29827ceac3c",
+    "ars_namespace" : "OT_MACH_DEV",
+    "ars_version" : 28,
+    "created_date" : "2019-07-04T17:03:12Z",
+    "direccion" : [ {
+      "direccion" : "Montes de toledo 1032, Las puentes octavo sector, San Nicolas de los Garza",
+      "location" : {
+        "coordinates" : [ -100.267567, 25.746656 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal San nicolas"
+    }, {
+      "direccion" : "Plaza Remax",
+      "location" : {
+        "coordinates" : [ -100.240234, 25.566148 ],
+        "type" : "Point"
+      },
+      "nombre" : "Sucursal REMAX"
+    } ],
+    "email" : [ "nestor.lopez.usc@gmail.com" ],
+    "empresa" : "Atzimba",
+    "equipos" : [ {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Equipo T800",
+      "poliza" : "XYZ"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Ind H343",
+      "poliza" : "POLIZA2"
+    }, {
+      "id" : "f647ca7d-65fb-47b1-8787-7529cbebfc55",
+      "nombre" : "Port2 Rob",
+      "poliza" : "Security7"
+    }, {
+      "id" : 11,
+      "nombre" : "Equipo nuevo 31-4",
+      "poliza" : "Pol314"
+    }, {
+      "id" : 33,
+      "nombre" : "Equipo nuevo 1-1",
+      "poliza" : "POLIZA11"
+    }, {
+      "id" : 321,
+      "nombre" : "Equipo nuevo 2-1",
+      "poliza" : "POLIZA21"
+    } ],
+    "estatus" : "Activo",
+    "id" : "85941222-2793-492e-96af-f29827ceac3c",
+    "nombre" : "Otro Néstor",
+    "updated_date" : "2019-07-11T17:03:12Z"
+  },
+  "comentario_cliente" : null,
+  "created_date" : "2019-08-06T21:09:02.823Z",
+  "descripcion" : "Hi",
+  "encuesta" : { },
+  "equipo" : {
+    "id" : "321",
+    "nombre" : "Equipo nuevo 2-1",
+    "poliza" : "POLIZA21"
+  },
+  "especialista" : {
+    "calendario" : null,
+    "celular" : "+528116318365",
+    "email" : "matiasleonardomarin@gmail.com",
+    "estatus" : true,
+    "free" : true,
+    "id" : "d747a736-1aad-4153-89ad-d72da7d14196",
+    "lastUpdate" : "2019-08-06T17:11:44.305Z",
+    "location" : {
+      "coordinates" : [ -100.27955144732067, 25.631298907483465 ],
+      "type" : "Point"
+    },
+    "nombre" : "Matias Marin",
+    "promedio" : {
+      "aceptados" : -1,
+      "cancelados" : 1,
+      "comunicacion" : 0,
+      "dominio" : 0,
+      "empatia" : 0,
+      "orden" : 0,
+      "proceso" : 0,
+      "puntualidad" : 0,
+      "rapidez" : 0,
+      "rechazados" : 0
+    },
+    "supervisor" : null,
+    "tipo" : "Supervisor"
+  },
+  "estatus" : "Cancelado",
+  "estatus_equipo" : null,
+  "fecha_servicio" : "2019-08-06T22:08:10Z",
+  "fecha_solicitud" : "2019-08-06T22:08:00Z",
+  "finaliza_servicio" : null,
+  "foto" : "public/servicios/56706c0f-8ca9-46e2-9fe9-6ed1758b8278.png",
+  "frecuencia_falla" : "N/A",
+  "id" : "92e0f2e1-99c0-4901-9504-4509ab3e8ebf",
+  "id_servicio" : 1007,
+  "inicia_servicio" : null,
+  "inmediato" : true,
+  "location" : {
+    "coordinates" : [ -100.26753639999998, 25.7465665 ],
+    "type" : "Point"
+  },
+  "notas" : [ ],
+  "notasTotal" : null,
+  "plataforma" : "PC",
+  "prioridad" : null,
+  "rechazos" : 0,
+  "seccion_falla" : "N/A",
+  "servicio" : "Soporte Tecnico",
+  "severidad" : "N/A",
+  "tiempo" : null
+} ]

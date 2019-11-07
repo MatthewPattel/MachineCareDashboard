@@ -25,23 +25,8 @@ function createData(name, celular, email, supervisor, free, status) {
   return {name, celular, email, supervisor, free, status};
 }
 
-let rows = [
-  createData('Nestor Lopez', 8116784903, 'nestor@otconsulting.com.mx', 'Matias Marin', 'Libre', 'Inactivo'),
-  createData('Pepe Martinez', 8116784903, 'nestor@otconsulting.com.mx', 'Armando Hoyos', 'Ocupado', 'Activo'),
-  createData('Placido Perez', 8116784903, 'nestor@otconsulting.com.mx', 'Jorge Murrieta', 'Libre', 'Inactivo'),
-  createData('Plutarco Lopez', 8116784903, 'nestor@otconsulting.com.mx', 'Matias Marin', 'Ocupado', 'Activo'),
-  createData('Lydia Gonzalez', 8116784903, 'nestor@otconsulting.com.mx', 'Jorge Murrieta', 'Libre', 'Activo'),
-  createData('Nestor Lopez', 8116784903, 'nestor@otconsulting.com.mx', 'Matias Marin', 'Libre', 'Inactivo'),
-  createData('Pepe Martinez', 8116784903, 'nestor@otconsulting.com.mx', 'Armando Hoyos', 'Ocupado', 'Activo'),
-  createData('Placido Perez', 8116784903, 'nestor@otconsulting.com.mx', 'Jorge Murrieta', 'Libre', 'Inactivo'),
-  createData('Plutarco Lopez', 8116784903, 'nestor@otconsulting.com.mx', 'Matias Marin', 'Ocupado', 'Activo'),
-  createData('Lydia Gonzalez', 8116784903, 'nestor@otconsulting.com.mx', 'Jorge Murrieta', 'Libre', 'Activo'),
-  createData('Nestor Lopez', 8116784903, 'nestor@otconsulting.com.mx', 'Matias Marin', 'Libre', 'Inactivo'),
-  createData('Pepe Martinez', 8116784903, 'nestor@otconsulting.com.mx', 'Armando Hoyos', 'Ocupado', 'Activo'),
-  createData('Placido Perez', 8116784903, 'nestor@otconsulting.com.mx', 'Jorge Murrieta', 'Libre', 'Inactivo'),
-  createData('Plutarco Lopez', 8116784903, 'nestor@otconsulting.com.mx', 'Matias Marin', 'Ocupado', 'Activo'),
-  createData('Lydia Gonzalez', 8116784903, 'nestor@otconsulting.com.mx', 'Jorge Murrieta', 'Libre', 'Activo'),
-];
+let rows = [];
+
 
 class obtainData extends Component {
   state = {
@@ -60,7 +45,7 @@ class obtainData extends Component {
 
 const setAuthorizationHeader = (token) => {
     const FBToken = `Bearer ${token}`;
-    //localStorage.setItem('FBAuth', FBToken);
+    localStorage.setItem('FBAuth', FBToken);
     axios.defaults.headers.common['Authorization'] = FBToken;
 }
 
